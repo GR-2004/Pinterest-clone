@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <% if(nav){ %>
+    <div class="w-full px-10 py-3 flex justify-between bg-zinc-800 text-white items-center">
+      <img src="https://i.pinimg.com/originals/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.png" alt="pin logo" class="img1" />
+    <div class="flex gap-10 items-center">
+      <a class="hover:text-sky-700" href="/profile">Profile</a>
+      <a class="hover:text-sky-700" href="/feed">Feed</a>
+      <a class="px-3 py-2 bg-red-700 text-white rounded-lg hover:bg-sky-700 " href="/logout">Logout</a>
+    </div>
+
+  <% } %>
+</div>
